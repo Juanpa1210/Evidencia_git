@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <div class="row">      
+                 <div class="col">
+                <a href="index.php"><button class="btn btn-primary" type="button">inicio</button></a>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#contenido">
+                        Tablas
+                    </button>
+                </div>
+    </nav>
+      
+    <div class="offcanvas offcanvas-end" id="contenido">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Tablas</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col">
+                    <a href="view_tr_material.php"><button class="btn btn-secondary" type="button">Materiales</button></a>
+                    <a href="view_tr_tip_mate.php"><button class="btn btn-secondary" type="button">Tipo de materiales</button></a>
+                    <a href="view_tm_inventario.php"><button class="btn btn-secondary" type="button">inventario</button></a>
+                    <a href="view_tm_reciclaje_rec.php"><button class="btn btn-secondary" type="button">Reciclaje recibido</button></a>
+                    <a href="view_tr_roles.php"><button class="btn btn-secondary" type="button">Roles</button></a>
+                    <a href="view_tr_roles.php"><button class="btn btn-secondary" type="button">Puntos</button></a>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+      
+</body>
+</html>
